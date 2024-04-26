@@ -18,45 +18,50 @@
 <title>Title</title>
 </head>
 <body class="Registration">
-  <nav class="navbar navbar-expand-lg bg-transparent border-bottom">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">
-        <img src="/static/images/Item_Scroll.jpg" alt="super cool scroll" width="60" height="60" class="d-inline-block align-text-top">
-        Quest
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./dashboard.html">Dashboard</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="register.html">Register</a></li>
-              <li><a class="dropdown-item" href="createtask.html">Create a Quest</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="dashboard.html">All Quests</a></li>
-              <li><a class="dropdown-item" href="taskdetails.html">Quest Details</a></li>
-            </ul>
-          </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-warning" type="submit">Search</button>
-        </form>
-        <a class="btn btn-outline-warning" type="button" href="/login.html">Login</a>
-        <a class="btn btn-outline-warning" type="button" href="/register.html">Register</a>
-      </div>
+
+  <!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg bg-transparent border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand btn btn-outline-warning" href="index.html">
+      <img src="/static/images/Item_Scroll.jpg" alt="super cool scroll" width="60" height="60" class="d-inline-block align-text-top">
+      Quest
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="btn btn-outline-warning position-relative" type="button" href="/dashboard.html">Quests Log  
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+            99+
+            <span class="visually-hidden">uncompleted quests</span></a>
+        </li>
+        <li class="nav-item mx-4">
+          <a class="btn btn-outline-warning" type="button" href="/taskdetails.html">Quest Details</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle btn btn-outline-warning text-warning" href="#" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="register.html">Register</a></li>
+            <li><a class="dropdown-item" href="createtask.html">Create a Quest</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="dashboard.html">All Quests</a></li>
+            <li><a class="dropdown-item" href="taskdetails.html">Quest Details</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-warning" type="submit">Search</button>
+      </form>
+      <a class="btn btn-outline-warning mx-4" type="button" href="/login.html">Login</a>
+      <a class="btn btn-outline-warning" type="button" href="/register.html">Register</a>
     </div>
-  </nav>
+  </div>
+</nav>
 
       <div class="container">
         <div class="row justify-content-center mt-5">
