@@ -1,0 +1,25 @@
+.hero {
+    height: 400px;
+    background: midnightblue;
+    background-image: url("images/tavern01.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+body{
+    background-image: url("images/wood_background.jpg");
+    background-size: cover;
+}
+
+h5 {
+    font-family: "Lugrasimo";
+}
+
+.card-body {
+    background-image: url("images/parchment-background.jpg");
+}
+
+.card-footer {
+    background-color: rgb(48, 17, 17);
+    color: gold;
+}

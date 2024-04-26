@@ -13,6 +13,9 @@
 <meta name="Description" content="Enter your description here"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="static/main.css">
 <title>Quest</title>
 </head>
@@ -20,5 +23,97 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg bg-transparent border-bottom">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="/static/images/Item_Scroll.jpg" alt="super cool scroll" width="60" height="60" class="d-inline-block align-text-top">
+        Quest
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./dashboard.html">Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="register.html">Register</a></li>
+              <li><a class="dropdown-item" href="createtask.html">Create a Quest</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="dashboard.html">All Quests</a></li>
+              <li><a class="dropdown-item" href="taskdetails.html">Quest Details</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-warning" type="submit">Search</button>
+        </form>
+        <a class="btn btn-outline-warning" type="button" href="/login.html">Login</a>
+        <a class="btn btn-outline-warning" type="button" href="/register.html">Register</a>
+      </div>
+    </div>
+  </nav>
+  
+<div class="container-fluid">
+    
+  <!-- HERO IMAGE -->
+  <div class="row hero"></div>
+<br>
+<!-- FEATURE CARDS -->
+<div></div>
+<div class="row row-cols-1 row-cols-md-3 g-4 border-top">
+    <div class="col">
+      <div class="card h-100">
+        <!-- <img src="..." class="card-img-top" alt="..."> -->
+        <div class="card-body">
+          <h5 class="card-title">Quest Creation</h5>
+          <p class="card-text">Do ye need help with collecting wolf pelts? Slay goblins or deliver a letter? Put ye request on our Quest Board!</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 7 months ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <!-- <img src="..." class="card-img-top" alt="..."> -->
+        <div class="card-body">
+          <h5 class="card-title">Quest Board</h5>
+          <p class="card-text">Attention all brave adventurers! The quest board beckons with new challenges and opportunities for glory. From slaying 
+            fearsome dragons to rescuing kidnapped villagers, there's a quest for every hero.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <!-- <img src="..." class="card-img-top" alt="..."> -->
+        <div class="card-body">
+          <h5 class="card-title">Slay the Goblin King!</h5>
+          <p class="card-text">Are you ready to embark on an epic quest and rid our realm of the tyrannical Goblin King? We are assembling a fellowship of courageous 
+            adventurers to venture into the heart of darkness and bring an end to his reign of terror. Riches and glory await those who dare to challenge him!</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 long years ago</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+ 
+
 </body>
 </html>
