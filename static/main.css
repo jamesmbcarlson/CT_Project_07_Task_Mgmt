@@ -39,13 +39,17 @@ h5 {
 }
 
 body.Registration{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(64, 211, 248);
+    font-family: "Lugrasimo";
+    color:gold;
 
 }
 
-/* Dashboard Page */
+footer {
+    background-color: rgb(48, 17, 17);
+    color: gold;
+}
 
+/* Dashboard Page */
 .dashboard .sub-hero {
     background-image: url("images/dashboard01.jpg");
 }
