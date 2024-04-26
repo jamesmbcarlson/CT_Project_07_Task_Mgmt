@@ -24,6 +24,20 @@ h5 {
     color: gold;
 }
 
+
+.sub-hero {
+    height: 300px;
+    background: midnightblue;
+    background-image: url("images/dragon_slaying02.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.card-header {
+    background-color: rgb(48, 17, 17);
+    color: gold;
+}
+
 body.Registration{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(64, 211, 248);
@@ -31,3 +45,4 @@ body.Registration{
 }
 
 .i
+
