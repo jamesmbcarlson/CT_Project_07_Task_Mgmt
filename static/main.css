@@ -23,3 +23,16 @@ h5 {
     background-color: rgb(48, 17, 17);
     color: gold;
 }
+
+.sub-hero {
+    height: 300px;
+    background: midnightblue;
+    background-image: url("images/dragon_slaying02.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.card-header {
+    background-color: rgb(48, 17, 17);
+    color: gold;
+}
