@@ -17,73 +17,71 @@
 <link rel="stylesheet" href="./static/main.css">
 <title>Title</title>
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="/static/images/Item_Scroll.jpg" alt="super cool scroll" width="60" height="60" class="d-inline-block align-text-top">
-            Quest
-          </a>
-          
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./dashboard.html">Dashboard</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Register</a></li>
-                  <li><a class="dropdown-item" href="#">Login</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Create a Quest</a></li>
-                  <li><a class="dropdown-item" href="#">Quest Log</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="login" href="./login.html">Login</a>
-              </li>
+<body class="Registration">
+  <nav class="navbar navbar-expand-lg bg-transparent border-bottom">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="/static/images/Item_Scroll.jpg" alt="super cool scroll" width="60" height="60" class="d-inline-block align-text-top">
+        Quest
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./dashboard.html">Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="register.html">Register</a></li>
+              <li><a class="dropdown-item" href="createtask.html">Create a Quest</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="dashboard.html">All Quests</a></li>
+              <li><a class="dropdown-item" href="taskdetails.html">Quest Details</a></li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-warning" type="submit">Search</button>
+        </form>
+        <a class="btn btn-outline-warning" type="button" href="/login.html">Login</a>
+        <a class="btn btn-outline-warning" type="button" href="/register.html">Register</a>
+      </div>
+    </div>
+  </nav>
 
       <div class="container">
         <div class="row justify-content-center mt-5">
-            <div class="col-md-6">
-                <img src= class="img-fluid mb-4" alt="Image">
+        <div class="col-md-6">
+              <img src="static/images/rxt5jykk9jf41.jpg" class="img-fluid mb-4" alt="Image">
 
       <div class="row justify-content-center mt-5">
-          <div class="col-md-6">
+          <div class="col-md-5">
               <h2 class="text-center mb-4">Registration</h2>
               <form>
                   <div class="mb-3">
                       <label for="fullName" class="form-label">Full Name</label>
-                      <input type="text" class="form-control" id="fullName" name="fullName" required>
+                      <input type="text" class="form-control" id="fullName" name="fullName" placeholder="John Doe" required>
                   </div>
                   <div class="mb-3">
                       <label for="Adventure Id" class="form-label">Adventure Id</label>
-                      <input type="text" class="form-control" id="Id" name="id" required>
+                      <input type="text" class="form-control" id="Id" name="id" placeholder="1928374">
                   </div>
                   <div class="mb-3">
                       <label for="password" class="form-label">Password</label>
-                      <input type="password" class="form-control" id="password" name="password" required>
+                      <input type="password" class="form-control" id="password" name="password" placeholder="********" required>
                   </div>
                   <div class="mb-3">
                       <label for="confirmPassword" class="form-label">Confirm Password</label>
-                      <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" required>
+                      <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" placeholder="********" required>
                     <div class="mb-3 form-check">
                         <input type="checkbox" class="form-check-input" id="rememberMe">
                         <label class="form-check-label" for="rememberMe">Remember Me</label>
