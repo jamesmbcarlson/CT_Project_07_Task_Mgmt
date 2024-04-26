@@ -23,3 +23,47 @@ h5 {
     background-color: rgb(48, 17, 17);
     color: gold;
 }
+
+
+.sub-hero {
+    height: 300px;
+    background: midnightblue;
+    background-image: url("images/dragon_slaying02.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.card-header {
+    background-color: rgb(48, 17, 17);
+    color: gold;
+}
+
+body.Registration{
+    font-family: "Lugrasimo";
+    color:gold;
+
+}
+
+footer {
+    background-color: rgb(48, 17, 17);
+    color: gold;
+}
+
+/* Dashboard Page */
+.dashboard .sub-hero {
+    background-image: url("images/dashboard01.jpg");
+}
+
+.dashboard-bg {
+    border-radius: 25px;
+    min-height: 500px;
+    width: 90%;
+    background-image: url("images/parchment-background.jpg");
+}
+
+.dashboard-content {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+}

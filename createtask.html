@@ -18,6 +18,139 @@
 </head>
 <body>
 
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg bg-transparent border-bottom">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="/static/images/Item_Scroll.jpg" alt="super cool scroll" width="60" height="60" class="d-inline-block align-text-top">
+        Quest
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./dashboard.html">Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="register.html">Register</a></li>
+              <li><a class="dropdown-item" href="createtask.html">Create a Quest</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="dashboard.html">All Quests</a></li>
+              <li><a class="dropdown-item" href="taskdetails.html">Quest Details</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-warning" type="submit">Search</button>
+        </form>
+        <a class="btn btn-outline-warning" type="button" href="/login.html">Login</a>
+        <a class="btn btn-outline-warning" type="button" href="/register.html">Register</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    
+    <!-- SUB-HERO IMAGE -->
+    <div class="row sub-hero"></div>
+  <br>
+
+    <!-- Sub Header Area -->
+  <div class="card text-center">
+    <div class="card-header h1">
+      Embark on a New Adventure
+    </div>
+    <div class="card-body">
+      <h4 class="card-title h4">Calling All Quest-Makers</h4>
+      <p class="card-text"><b>Adventurers, do you have a tale waiting to be told? Create your own quest and set the stage 
+        for epic adventures! Whether it's a hunt for mythical beasts, a journey to recover lost artifacts, or a quest 
+        to save a kingdom in peril, the quest board awaits your imagination. Craft your quest with care, detailing challenges, 
+        rewards, and the thrill of exploration. Share your quest at the tavern and watch as fellow adventurers flock to join your cause.</p></b>
+    </div>
+    <div class="card-footer text-body-secondary">
+      Sign up below
+    </div>
+  </div>
+
+<!-- Create Quest -->
+
+<div class="card-body">
+    <label class="form-label h4">Quest Giver Name.</label>
+    <div class="row">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+        </div>
+      </div>
+  
+  <div class="mb-3">
+    <label class="form-label h4">Please select quest type.</label>
+    <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+        <label class="form-check-label" for="flexSwitchCheckDefault"><b>Gathering Quests</label>
+      </div>
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+        <label class="form-check-label" for="flexSwitchCheckChecked">Delivery Quests</label>
+      </div>
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+        <label class="form-check-label" for="flexSwitchCheckChecked">Slaying Monsters Quests</label>
+      </div>
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+        <label class="form-check-label" for="flexSwitchCheckChecked">Other Misc. Quests</label>
+      </div>
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckCheckedDisabled" checked disabled>
+        <label class="form-check-label text-primary" for="flexSwitchCheckCheckedDisabled">Agreed to reward the adventurer(s) who completed the quest.</label></b>
+      </div>
+    <div class="form-label h4">Enter reward amount.</div>
+  </div>
+  
+  <div class="input-group mb-3">
+    <span class="input-group-text">$</span>
+    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+    <span class="input-group-text">.00</span>
+  </div>
+
+  <form class="was-validated">
+    <div class="mb-3">
+      <label for="validationTextarea" class="form-label h4">Quest Details</label>
+      <textarea class="form-control" id="validationTextarea" placeholder="Required example: Please help me collect 20 carrots from my field that's been taken over by tiny bunny monsters!" required></textarea>
+      <div class="invalid-feedback">
+        Please enter a message in the text area.
+      </div>
+    </div>
+
+</div>
+<footer class="fixed-bottom">
+  <div class="container-fluid">
+      <div class="row align-items-center">
+          <div class="col-auto">
+              <img src="/static/images/Item_Scroll.jpg" alt="Icon" class="icon" width="50">
+              
+          </div>
+
+          <div class="col">
+            <p>@ 2024 RPG Crop All rights reserved.</p></p>
+          </div>
+      </div>
+  </div>
+</footer>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
 </body>
