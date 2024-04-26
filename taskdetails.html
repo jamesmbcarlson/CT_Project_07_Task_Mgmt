@@ -13,10 +13,120 @@
 <meta name="Description" content="Enter your description here"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="static/main.css">
 <title>Quest | Details</title>
 </head>
 <body>
+
+<nav class="navbar navbar-expand-lg bg-transparent border-bottom">
+    <div class="container-fluid">
+      <a class="navbar-brand btn btn-outline-warning" href="index.html">
+        <img src="/static/images/Item_Scroll.jpg" alt="super cool scroll" width="60" height="60" class="d-inline-block align-text-top">
+        Quest
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./dashboard.html">Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="register.html">Register</a></li>
+              <li><a class="dropdown-item" href="createtask.html">Create a Quest</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="dashboard.html">All Quests</a></li>
+              <li><a class="dropdown-item" href="taskdetails.html">Quest Details</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-warning" type="submit">Search</button>
+        </form>
+        <a class="btn btn-outline-warning" type="button" href="/login.html">Login</a>
+        <a class="btn btn-outline-warning" type="button" href="/register.html">Register</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="row row-cols-1 row-cols-md-3 g-4 border-top">
+    <div class="col">
+      <div class="card h-100">
+        <img src="./static/images/homestead_2.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Runaways</h5>
+          <p class="card-text">Old Lady Gwenyth's chickens got out again. Help her round up her chickens and she'll pay you handsomely! She stays in the homestead south of New Elf Town.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Reward: 40gp, Rusted Saber<br>Risk: Low
+            <div class="progress">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>Posted: 5 hours ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="./static/images/abandoned_town.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Abandoned Town</h5>
+          <p class="card-text">Abertonshire's residents disapeared suddenly... Someone needs to go there and see what happened. Beware, Orcs have been spotted in the area!</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Reward: Duke's Long Sword, 500gp<br>Risk: High<div class="progress">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>Posted: 2 fortnights ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="./static/images/goblin_king_2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Slay the Goblin King!</h5>
+          <p class="card-text">The Goblin King's tyranical reign has gone on long enough. Something needs to be done, else the Goblins will soon rule all the land. 
+            Venture to Blacklake and kill the Goblin King and his followers.
+          </p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Reward: Goblin Treasure, Legendary Armor, 3,000gp<br>Risk: Legendary
+            <div class="progress">
+                <div class="progress-bar bg-warning" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            Posted: 3 years ago</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+      <footer class="fixed-bottom">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-auto">
+                    <img src="/static/images/Item_Scroll.jpg" alt="Icon" class="icon" width="50">
+                    
+                </div>
+      
+                <div class="col">
+                  <p>@ 2024 RPG Crop All rights reserved.</p></p>
+                </div>
+            </div>
+        </div>
+      </footer>
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>

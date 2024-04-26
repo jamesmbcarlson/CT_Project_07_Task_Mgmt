@@ -39,10 +39,31 @@ h5 {
 }
 
 body.Registration{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(64, 211, 248);
+    font-family: "Lugrasimo";
+    color:gold;
 
 }
 
-.i
+footer {
+    background-color: rgb(48, 17, 17);
+    color: gold;
+}
 
+/* Dashboard Page */
+.dashboard .sub-hero {
+    background-image: url("images/dashboard01.jpg");
+}
+
+.dashboard-bg {
+    border-radius: 25px;
+    min-height: 500px;
+    width: 90%;
+    background-image: url("images/parchment-background.jpg");
+}
+
+.dashboard-content {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
