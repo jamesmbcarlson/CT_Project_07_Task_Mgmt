@@ -24,6 +24,7 @@ h5 {
     color: gold;
 }
 
+
 .sub-hero {
     height: 300px;
     background: midnightblue;
@@ -36,3 +37,12 @@ h5 {
     background-color: rgb(48, 17, 17);
     color: gold;
 }
+
+body.Registration{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(64, 211, 248);
+
+}
+
+.i
+
