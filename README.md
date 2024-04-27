@@ -6,7 +6,7 @@ This project was built as an assignment for Coding Temple.
 
 ---
 
-<br>Per our assignement requirements, we created a reponsive webpage layout for a task management application. The task management application should include pages to create tasks, view all tasks, for details for tasks, as well as pages for logging in and registering new users.
+<br>Per our assignment requirements, we created a reponsive webpage layout for a task management application. The task management application should include pages to create tasks, view all tasks, for details for tasks, as well as pages for logging in and registering new users.
 
 First we used Figma to discuss, wireframe, and prototype what our layout and design for the web application should be. [You can view our notes, wireframes, and prototype here!](https://www.figma.com/file/SFfsqwXKhD8wlzVRiypNnr/CT---Task-Mgmt-App?type=design&node-id=0%3A1&mode=design&t=u6jFEGTuxxLGWd8G-1)
 
@@ -29,7 +29,7 @@ The breakdown of our work was as follows:
 
 - <b>Phong Truong</b>: 
     - Created the <b>Create a Quest</b> (createtask.html) page.
-    - Spruced up our navbar!
+    - Spruced up our navbar! Note the cool badge component!
     
 - <b>Raymond Zheng</b>:
     - Created the <b>Login</b> (login.html) page.
