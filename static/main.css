@@ -40,13 +40,14 @@ h5 {
 
 body.Registration{
     font-family: "Lugrasimo";
-    color:gold;
+    color:rgb(121, 74, 4);
 
 }
 
 footer {
     background-color: rgb(48, 17, 17);
     color: gold;
+    font-family: "Lugrasimo";
 }
 
 /* Dashboard Page */
